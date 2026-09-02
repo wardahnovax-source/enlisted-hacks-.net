@@ -1,0 +1,17 @@
+{
+  "name": "Enlisted Hacks",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "dev",
+      "command": "npm run dev -- --host 0.0.0.0 --port 4321",
+      "description": "Astro dev server on port 4321"
+    }
+  ],
+  "ports": [
+    {
+      "name": "web",
+      "port": 4321
+    }
+  ]
+}
