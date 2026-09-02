@@ -6,13 +6,13 @@ type Props = {
 };
 
 const FEATURES = [
-	{ key: 'featAimbot', icon: '◎' },
-	{ key: 'featEsp', icon: '◈' },
-	{ key: 'featSkeleton', icon: '⬡' },
-	{ key: 'featHealth', icon: '♥' },
-	{ key: 'featVehicles', icon: '▣' },
-	{ key: 'featRecoil', icon: '↯' },
-	{ key: 'featStreamproof', icon: '◉' },
+	{ key: 'featAimbot', icon: 'AI' },
+	{ key: 'featEsp', icon: 'ES' },
+	{ key: 'featSkeleton', icon: 'SK' },
+	{ key: 'featHealth', icon: 'HP' },
+	{ key: 'featVehicles', icon: 'VH' },
+	{ key: 'featRecoil', icon: 'RC' },
+	{ key: 'featStreamproof', icon: 'SP' },
 ] as const;
 
 const QUICK_LINKS = [
