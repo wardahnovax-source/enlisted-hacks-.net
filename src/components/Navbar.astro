@@ -110,6 +110,54 @@ const links = [
 		opacity: 0.75;
 	}
 
+	.lang-switcher {
+		position: relative;
+	}
+
+	.lang-switcher__panel {
+		position: absolute;
+		padding: 0.5rem;
+	}
+
+	.lang-switcher__note {
+		margin: 0 0 0.5rem;
+		padding: 0.45rem 0.55rem;
+		border-radius: 0.55rem;
+		background: color-mix(in srgb, var(--bg) 55%, var(--bg-elevated));
+		color: var(--ink-faint);
+		font-size: 0.72rem;
+		line-height: 1.4;
+	}
+
+	.lang-switcher__list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: grid;
+		gap: 0.25rem;
+	}
+
+	.lang-switcher__link {
+		display: grid;
+		gap: 0.1rem;
+		padding: 0.55rem 0.65rem;
+		border-radius: 0.55rem;
+		text-decoration: none;
+		transition: background 0.15s ease;
+	}
+
+	.lang-switcher__native {
+		font-size: 0.86rem;
+		font-weight: 700;
+		line-height: 1.25;
+	}
+
+	.lang-switcher__region {
+		font-size: 0.68rem;
+		line-height: 1.25;
+		color: var(--ink-faint);
+	}
+
 	.site-header .lang-switcher__panel {
 		right: 0;
 		left: auto;
