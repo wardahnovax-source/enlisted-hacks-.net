@@ -1,0 +1,42 @@
+/** Descriptive image alts — Google rejects empty or keyword-only alts. */
+export const DESCRIPTIVE_IMAGE_ALTS = {
+	hero: 'Enlisted Hacks hero — ESP and aimbot overlay in Enlisted',
+	espWallhack: 'Wallhack outlines showing enemy soldiers and AI soldiers through walls',
+	aimbotCombat: 'Soft aim assist overlay during an Enlisted raid',
+	squadFight: 'Enlisted Hacks combat overlay during a squad fight',
+	playerEsp: 'Player ESP boxes and distance readouts in a Enlisted raid',
+	headerArt: 'Aimbot view and bone priority controls for Enlisted',
+	cheatsPackage: '2D radar threat overlay for Enlisted',
+	rebootFight: 'Aimbot assist during a Enlisted firefight',
+	battleRoyale: 'Enlisted Hacks in-raid overview for Windows PC',
+	battleRoyaleIsland: 'ESP markers for loot and extracts in Enlisted',
+};
+
+/** Page-level image alt by pageId (EN source of truth). */
+export const PAGE_IMAGE_ALTS = {
+	home: 'Enlisted Hacks homepage hero — ESP and aimbot for Enlisted',
+	'enlisted-esp': 'Enlisted ESP player boxes and distance readouts in a raid',
+	'enlisted-aimbot': 'Enlisted aimbot and soft aim controls on Windows PC',
+	features: 'Enlisted Hacks features — ESP, soft aim, and radar screenshots',
+	pricing: 'Enlisted Hacks store plans for monthly and lifetime licenses',
+	setup: 'Enlisted Hacks setup guide screenshot for Windows PC',
+	updates: 'Enlisted Hacks live status after Easy Anti-Cheat and game patches',
+	faq: 'Enlisted Hacks FAQ — delivery, setup, and update answers',
+	support: 'Enlisted Hacks support page for license and setup help',
+	undetected: 'Enlisted Hacks undetected status overview for Windows PC',
+	wallhack: 'Enlisted wallhack visibility through walls in a raid',
+	radar: 'Enlisted 2D radar overlay showing nearby threats',
+	eac: 'Enlisted Hacks maintenance after a Easy Anti-Cheat patch',
+	'cheats-2026': 'Enlisted Hacks product overview for Enlisted',
+	hacks: 'Enlisted Hacks product page — ESP, aimbot, and radar',
+	'cheat-download': 'Enlisted Hacks download and install delivery flow',
+	'mod-menu': 'Enlisted Hacks in-game menu controls',
+	'soft-aim': 'Enlisted soft aim FOV and smoothness settings',
+	'best-cheats': 'Enlisted Hacks overview for Enlisted on PC',
+	'aimbot-hack': 'Enlisted aimbot hack controls and bone priority',
+	'esp-hack': 'Enlisted ESP hack boxes and loot markers',
+	'unlock-all': 'Enlisted Hacks license features overview',
+	privacy: 'Enlisted Hacks privacy policy page',
+	refund: 'Enlisted Hacks refund policy page',
+	terms: 'Enlisted Hacks terms of use page',
+};

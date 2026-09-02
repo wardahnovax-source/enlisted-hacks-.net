@@ -1,0 +1,46 @@
+import { siteConfig } from './site';
+
+/** Screenshots used across product pages — Enlisted hacks keyword alts. */
+export const enlistedImages = {
+	hero: '/images/enlisted-hacks-hero-full.png',
+	espWallhack: '/images/enlisted-hacks-esp.webp',
+	aimbotCombat: '/images/enlisted-hacks-aimbot.webp',
+	aimbotSkeleton: '/images/enlisted-hacks-combat.webp',
+	playerEsp: '/images/enlisted-hacks-esp.webp',
+	cheatsCombat: '/images/enlisted-hacks-combat.webp',
+	logo: siteConfig.logo,
+	cover: '/images/enlisted-hacks-combat.webp',
+	loadoutBuilder: '/images/enlisted-hacks-esp.webp',
+	squadFight: '/images/enlisted-hacks-combat.webp',
+	cheatsPackage: '/images/enlisted-hacks-aimbot.webp',
+	headerArt: '/images/enlisted-hacks-hero.webp',
+	battleRoyaleCombat: '/images/enlisted-hacks-combat.webp',
+	extractFight: '/images/enlisted-hacks-aimbot.webp',
+	rebootFight: '/images/enlisted-hacks-aimbot.webp',
+	scavRunCombat: '/images/enlisted-hacks-esp.webp',
+	scavRunMode: '/images/enlisted-hacks-esp.webp',
+	battleRoyaleIsland: '/images/enlisted-hacks-combat.webp',
+	raidMap: '/images/enlisted-hacks-combat.webp',
+	product: [
+		{ src: '/images/enlisted-hacks-esp.webp', alt: 'ESP player boxes in an Enlisted squad battle' },
+		{ src: '/images/enlisted-hacks-combat.webp', alt: 'Skeleton outlines for enemy soldiers in Enlisted' },
+		{ src: '/images/enlisted-hacks-aimbot.webp', alt: 'Aimbot overlay for Enlisted infantry combat' },
+		{ src: '/images/enlisted-hacks-esp.webp', alt: 'Health and squad ESP markers in Enlisted' },
+		{ src: '/images/enlisted-hacks-combat.webp', alt: 'Vehicle ESP for tanks and aircraft in Enlisted' },
+		{ src: '/images/enlisted-hacks-aimbot.webp', alt: 'Recoil control settings for Enlisted weapons' },
+	],
+	gallery: [
+		{ src: '/images/enlisted-hacks-esp.webp', alt: 'ESP overlay showing enemy soldier distance', featured: true },
+		{ src: '/images/enlisted-hacks-combat.webp', alt: 'Skeleton view through terrain in Enlisted' },
+		{ src: '/images/enlisted-hacks-aimbot.webp', alt: 'Aimbot FOV ring in infantry combat' },
+		{ src: '/images/enlisted-hacks-esp.webp', alt: 'Health and squad status ESP pins' },
+		{ src: '/images/enlisted-hacks-combat.webp', alt: 'Vehicle and tank ESP filters in Enlisted' },
+	],
+	sitemap: [
+		{ src: '/images/enlisted-hacks-esp.webp', title: '', caption: '' },
+		{ src: '/images/enlisted-hacks-combat.webp', title: '', caption: '' },
+		{ src: '/images/enlisted-hacks-aimbot.webp', title: '', caption: '' },
+		{ src: '/images/enlisted-hacks-hero.webp', title: '', caption: '' },
+		{ src: '/images/enlisted-hacks-hero-full.png', title: '', caption: '' },
+	],
+} as const;
